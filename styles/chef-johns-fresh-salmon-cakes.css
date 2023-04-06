@@ -1,0 +1,28 @@
+h1 {
+    border-left: 3px solid salmon;
+    padding-left: 25px;
+}
+
+h3.border-left-tab {
+    border-left: 3px solid rgb(253, 192, 185);
+    padding-left: 15px;
+}
+
+.nav-text:hover {
+    border-bottom: 2px solid salmon;
+    border-top: 2px solid rgba(255, 255, 255, 0);
+}
+
+.ingredient-container {
+    background: rgb(255, 231, 228);
+    border: 3px solid rgb(255, 183, 175);
+    border-radius: 3px;
+}
+
+li.ingredient-item {
+    color: rgb(253, 100, 83);
+}
+
+span.ingredient-text {
+    color: black;
+}
