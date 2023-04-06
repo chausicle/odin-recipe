@@ -1,15 +1,6 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 5% 20% 100px;
-}
-
 h1 {
     border-left: 3px solid rgb(255, 206, 142);
     padding-left: 25px;
-}
-
-h3 {
-    color: rgb(58, 58, 58);
 }
 
 h3.border-left-tab {
@@ -17,72 +8,21 @@ h3.border-left-tab {
     padding-left: 15px;
 }
 
-.recipe-image {
-    width: 100%;
-}
-
-.nav-items {
-    align-items: center;
-    display: flex;
-    font-size: 16px;
-    font-weight: bold;
-    height: 30px;
-    letter-spacing: .5px;
-    list-style-type: none;
-    padding: 0;
-    text-transform: uppercase;
-}
-
-.nav-item {
-    display: flex;
-}
-
-.nav-link {
-    align-items: center;
-    color: black;
-    display: flex;
-    text-decoration: none;
-}
-
-.nav-text {
-    color: rgb(143, 143, 143);
-}
-
 .nav-text:hover {
     border-bottom: 2px solid rgb(255, 206, 142);
     border-top: 2px solid rgba(255, 255, 255, 0);
-}
-
-.gtchevron {
-    height: 100%;
-    /* filter: invert(59%) sepia(5%) saturate(63%) hue-rotate(251deg) brightness(84%) contrast(87%); */
-    /* filter: invert(94%) sepia(87%) saturate(2051%) hue-rotate(302deg) brightness(111%) contrast(101%); */
-    filter: invert(14%) sepia(17%) saturate(3317%) hue-rotate(6deg) brightness(99%) contrast(96%);
-    margin: 0 8px;
-    width: 8px;
-}
-
-.description-container {
-    margin: 35px 0 65px;
 }
 
 .ingredient-container {
     background: rgb(255, 245, 232);
     border: 3px solid rgb(255, 219, 171);
     border-radius: 3px;
-    margin-top: 15px;
-    padding: 1px 20px;
 }
 
 li.ingredient-item {
     color: rgb(255, 186, 96);
-    margin-bottom: 5px;
 }
 
 span.ingredient-text {
     color: black;
-}
-
-.steps-container {
-    margin-top: 30px;
 }
