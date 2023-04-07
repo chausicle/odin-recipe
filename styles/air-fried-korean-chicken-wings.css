@@ -1,0 +1,51 @@
+h1 {
+    border-left: 3px solid rgb(255, 34, 0);
+    padding-left: 25px;
+}
+
+h3.border-left-tab {
+    border-left: 3px solid rgb(168, 83, 70);
+    padding-left: 15px;
+}
+
+h4 {
+    letter-spacing: 1px;
+}
+
+.nav-text:hover {
+    border-bottom: 2px solid rgb(255, 34, 0);
+    border-top: 2px solid rgba(255, 255, 255, 0);
+}
+
+.ingredient-container {
+    background: rgba(255, 147, 130, 0.34);
+    border: 3px solid rgb(255, 75, 47);
+    border-radius: 3px;
+}
+
+li.ingredient-item {
+    color: rgb(255, 34, 0);
+}
+
+span.ingredient-text {
+    color: black;
+}
+
+.steps-container > ol {
+    counter-reset: li;
+    list-style: none;
+}
+
+.steps-container > ol > li::before {
+    align-items: center;
+    background: rgb(195, 255, 195);
+    border-radius: 2px;
+    color: black;
+    counter-increment: li;
+    content: counter(li);
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    text-align: center;
+    width: 25px;
+}
