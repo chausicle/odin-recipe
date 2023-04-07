@@ -1,0 +1,47 @@
+h1 {
+    border-left: 3px solid rgb(132, 63, 33);
+    padding-left: 25px;
+}
+
+h3.border-left-tab {
+    border-left: 3px solid rgb(179, 127, 105);
+    padding-left: 15px;
+}
+
+.nav-text:hover {
+    border-bottom: 2px solid rgb(132, 63, 33);
+    border-top: 2px solid rgba(255, 255, 255, 0);
+}
+
+.ingredient-container {
+    background: rgb(251, 237, 220);;
+    border: 3px solid rgb(179, 127, 105);
+    border-radius: 3px;
+}
+
+li.ingredient-item {
+    color: rgb(193, 67, 54);
+}
+
+span.ingredient-text {
+    color: black;
+}
+
+.steps-container > ol {
+    counter-reset: li;
+    list-style: none;
+}
+
+.steps-container > ol > li::before {
+    align-items: center;
+    background: rgb(60, 60, 60);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    counter-increment: li;
+    content: counter(li);
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    text-align: center;
+    width: 25px;
+}
