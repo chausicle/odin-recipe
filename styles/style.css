@@ -17,9 +17,41 @@ h1 {
 }
 
 .recipe-col {
+    background: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 0 gainsboro;
+    height: 455px;
     margin: 0 5%;
+    padding: 2% 2% 3%;
     width: 40%;
 }
+
+.ramen-border-left-tab {
+    border-left: 3px solid antiquewhite;
+    padding-left: 15px;
+}
+
+.salmon-border-left-tab {
+    border-left: 3px solid rgb(253, 192, 185);
+    padding-left: 15px;
+}
+
+.sauce-border-left-tab {
+    border-left: 3px solid rgb(179, 127, 105);
+    padding-left: 15px;
+}
+
+.wings-left-tab {
+    border-left: 3px solid rgb(168, 83, 70);
+    padding-left: 15px;
+}
+
+
+/* .img-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
 
 .recipe-image {
     border-radius: 5px;
