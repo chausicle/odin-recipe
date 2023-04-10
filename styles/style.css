@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5% 20% 100px;
+}
+
+h1 {
+    border-left: 5px solid rgb(169 121 43);
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.recipe-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.recipe-col {
+    margin: 0 5%;
+    width: 40%;
+}
+
+.recipe-image {
+    border-radius: 5px;
+    width: 100%;
+}
