@@ -24,9 +24,19 @@ h1 {
     border-radius: 5px;
     box-shadow: -2px 5px 5px 0 rgb(42, 42, 42);
     height: 455px;
+    left: 0;
     margin: 0 5%;
     padding: 0% 2% 3%;
+    top: 0;
+    transition: box-shadow .08s, left .08s, top .08s;
     width: 40%;
+}
+
+.recipe-col:hover {
+    box-shadow: -4px 7px 10px 0 rgb(42, 42, 42);
+    left: 2px;
+    position: relative;
+    top: -2px;
 }
 
 .pin {
@@ -37,7 +47,13 @@ h1 {
     position: relative;
     text-align: center;
     top: -15px;
+    transition: top .08s, left .08s;
     width: 100%;
+}
+
+.recipe-col:hover > .pin {
+    left: 30px;
+    top: -35px;
 }
 
 .ramen-border-left-tab {
