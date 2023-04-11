@@ -23,10 +23,9 @@ h1 {
     background: ghostwhite;
     border-radius: 5px;
     box-shadow: -2px 5px 5px 0 rgb(42, 42, 42);
-    height: 455px;
     left: 0;
     margin: 0 5%;
-    padding: 0% 2% 3%;
+    padding: 0% 3% 3%;
     top: 0;
     transition: box-shadow .08s, left .08s, top .08s;
     width: 40%;
